@@ -1,0 +1,14 @@
+﻿<Window x:Class="MultiThreadWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiThreadWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TextBoxFib" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="744" Height="300"/>
+        <Slider x:Name="SleepSlider" HorizontalAlignment="Left" Margin="10,32,0,0" VerticalAlignment="Top" Width="120" Minimum="1" Maximum="1000" Value="1000"/>
+
+    </Grid>
+</Window>
